@@ -1,11 +1,11 @@
-#### NOTE: Sorry, I built this project in one week when I first started learning iOS and I had stopped supporting it. The project contains a lot of bugs. Please help yourself when reviewing it.
+#### NOTE: I have updated this project in swift 5 added functionality in 5,6,7 to add those affects at current time. Please help yourself when reviewing it if you wanna do some change.
 
 # VideoEditor
-VideoEditor is an app that lets users edit their videos (it works like how it sounds)<br />
+VideoEditor is an app that lets users edit their videos (it works like how it sounds)
 
 The app is written in Swift using AVFoundation framework, AVKit framework, MobileCoreServices framework and Photos framework.
 
-##### I am an "anti-storyboard" person. Therefore, all the UI were designed programmatically using auto layout (adding constraints) technique. 
+##### All the UI were designed programmatically using auto layout (adding constraints) technique. 
 
 Its functionalities:
 
@@ -14,9 +14,9 @@ Its functionalities:
 	2. Rearrange a video around a pivot
 	3. Trim a part of a video
 	4. Change speed of a video
-	5. Add effects to a video
-	6. Add text overlay to a video
-	7. Add stickers overlay to a video
+	5. Add effects to a video (At current video playing time for 2 seconds)
+	6. Add text overlay to a video (At current video playing time for 2 seconds)
+	7. Add stickers overlay to a video (At current video playing time for 2 seconds)
 
     - Haven’t implemented functionalities:
 	1. Reverse a video
